@@ -113,7 +113,7 @@
 						<goals>
 							<goal>check</goal> <!-- fails build if not formatted -->
 						</goals>
-						<phase>validate</phase>
+						<phase>verify</phase>
 					</execution>
 				</executions>
 			</plugin>
@@ -131,7 +131,7 @@
 						<goals>
 							<goal>check</goal>
 						</goals>
-						<phase>validate</phase>
+						<phase>verify</phase>
 					</execution>
 				</executions>
 			</plugin>
@@ -150,6 +150,7 @@
 					<!-- Validates formatting on mvn verify / CI -->
 					<execution>
 						<id>validate-code-format</id>
+						<phase>verify</phase>
 						<goals>
 							<goal>validate-code-format</goal>
 						</goals>
