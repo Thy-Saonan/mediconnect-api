@@ -1,0 +1,9 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "maven.executable.preferMavenWrapper": true,
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "java.checkstyle.configuration": "${workspaceFolder}/config/checkstyle/checkstyle.xml"
+}
